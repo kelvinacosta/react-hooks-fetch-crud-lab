@@ -17,7 +17,7 @@ function App() {
   function handleAddQuestion(newQuestion){
     setQuestion([...questions,newQuestion])
   }
-  // addQuestion={onAddQuestion}
+  
 
   function deletingQuestion(questionToDelete) {
     
