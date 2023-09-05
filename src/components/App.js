@@ -20,10 +20,10 @@ function App() {
   // addQuestion={onAddQuestion}
 
   function deletingQuestion(questionToDelete) {
-    // Create a new array that excludes the question to delete
+    
     const updatedQuestions = questions.filter((question) => question.id !== questionToDelete);
     
-    // Update the state with the new array
+    
     setQuestion(updatedQuestions);
   }
   
